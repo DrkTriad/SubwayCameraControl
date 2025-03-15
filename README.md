@@ -26,5 +26,52 @@ Sebelum menjalankan proyek ini, pastikan Anda memiliki:
 
 ## Cara Instalasi
 1. *Clone Repository*:
-2. git clone https://github.com/DrkTriad/SubwayCameraControl.git.git
+2. git clone https://github.com/DrkTriad/SubwayCameraControl.git
 cd subway_hand_control
+
+2. *Instal Python dan Library*:
+Pastikan Python 3.10 terinstall, lalu jalankan:
+
+pip install opencv-python mediapipe pyautogui
+
+3. *Jalankan Emulator*:
+- Buka BlueStacks (atau emulator lain) dan jalankan Subway Surfers.
+- Pastikan emulator menerima input keyboard dengan mengklik jendela game.
+
+4. *Jalankan Program*:
+
+python subway_hand_control.py
+
+## Cara Menggunakan
+1. Pastikan webcam Anda aktif.
+2. Jalankan program subway_hand_control.py.
+3. Hadapkan tangan Anda ke webcam untuk mengontrol game:
+- Tangan terbuka: Lompat.
+- Tangan ke bawah: Tunduk.
+- Hanya telunjuk: Ke kiri.
+- Hanya jari tengah: Ke kanan.
+4. Tekan tombol q di jendela webcam untuk keluar dari program.
+
+## Troubleshooting
+- *Webcam Tidak Terdeteksi*: Ganti cv2.VideoCapture(0) ke cv2.VideoCapture(1) jika Anda memiliki lebih dari satu kamera.
+- *Input Tidak Berfungsi*: Pastikan jendela emulator aktif (klik di dalamnya sebelum menjalankan program).
+- *Gestur Tidak Akurat*: Sesuaikan pencahayaan atau jarak tangan dari webcam.
+
+## Teknologi yang Digunakan
+- *Python*: Bahasa pemrograman utama.
+- *MediaPipe*: Untuk deteksi gestur tangan.
+- *OpenCV*: Untuk pengolahan video dari webcam.
+- *PyAutoGUI*: Untuk mensimulasikan input keyboard.
+- *BlueStacks*: Emulator untuk menjalankan Subway Surfers.
+
+## Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini:
+1. Fork repository ini.
+2. Buat branch baru (git checkout -b fitur-baru).
+3. Commit perubahan Anda (git commit -m "Menambahkan fitur X").
+4. Push ke branch (git push origin fitur-baru).
+5. Buat Pull Request.
+
+
+## Kontak
+Jika ada pertanyaan atau saran, hubungi saya di gilangafs02@gmail.com atau buka issue di repository ini.
