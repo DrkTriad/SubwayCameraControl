@@ -64,14 +64,5 @@ python subway_hand_control.py
 - *PyAutoGUI*: Untuk mensimulasikan input keyboard.
 - *BlueStacks*: Emulator untuk menjalankan Subway Surfers.
 
-## Kontribusi
-Jika Anda ingin berkontribusi pada proyek ini:
-1. Fork repository ini.
-2. Buat branch baru (git checkout -b fitur-baru).
-3. Commit perubahan Anda (git commit -m "Menambahkan fitur X").
-4. Push ke branch (git push origin fitur-baru).
-5. Buat Pull Request.
-
-
 ## Kontak
 Jika ada pertanyaan atau saran, hubungi saya di gilangafs02@gmail.com atau buka issue di repository ini.
