@@ -26,5 +26,5 @@ Sebelum menjalankan proyek ini, pastikan Anda memiliki:
 
 ## Cara Instalasi
 1. *Clone Repository*:
-2. git clone https://github.com/[username]/[nama-repo].git
-cd [nama-repo]
+2. git clone https://github.com/DrkTriad/SubwayCameraControl.git.git
+cd subway_hand_control
